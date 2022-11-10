@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(61, 61, 60);
+}
+div{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/38/924/905/genocide-wallpaper-preview.jpg);
+    width:550px;
+    height: 550px;
+    background-position: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 22px 0 white;
+    margin: 100px auto;
+    background-size: cover;
+    transition: box-shadow 1s;
+
+}
+div:hover{
+    
+    box-shadow:0 0 0 25px rgb(255 165 0),
+               0 0 0 50px blue,
+               0 0 0 75px red;
+    transition: 1s;           
+    
+}
